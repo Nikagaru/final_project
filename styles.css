@@ -1,0 +1,201 @@
+/* CSS styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Change color on hover */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.container {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ffd700; /* Change background color on hover */
+}
+
+/* About Page Styles */
+#about {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+#about .container {
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+#about img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Destinations Page Styles */
+#destinations {
+    padding: 50px 0;
+}
+
+#destinations .container {
+    text-align: center;
+}
+
+#destinations h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+#destinations .destination {
+    margin-bottom: 60px; /* Increased margin-bottom for more distance between destinations */
+    text-align: left;
+    width: 60%;
+    margin: 0 auto; /* Center the entire destination container */
+}
+
+#destinations .destination img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto; /* Center the image within its container */
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#destinations .destination-info h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+#destinations .destination-info p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Contact Page Styles */
+#contact {
+    padding: 50px 0;
+    background-color: #f9f9f9; /* Change background color */
+}
+
+#contact .container {
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+#contact .contact-info {
+    margin-bottom: 30px;
+}
+
+#contact .contact-info p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact .form-group {
+    margin-bottom: 20px;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact textarea {
+    resize: vertical;
+}
+
+#contact button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact button[type="submit"]:hover {
+    background-color: #ffd700;
+}
